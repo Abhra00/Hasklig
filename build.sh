@@ -12,8 +12,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 # clean existing build artifacts
 rm -rf $DIR/target/
 otf_dir="$DIR/target/OTF"
-ttf_dir="$DIR/target/TTF"
-mkdir -p $otf_dir $ttf_dir
+mkdir -p $otf_dir
 
 
 function build_font {
@@ -27,14 +26,9 @@ function build_font {
     # -r is for "release mode" (subroutinization + applied glyph order)
     # -gs is for filtering the output font to contain only glyphs in the GOADB
     makeotf -f $font_ufo -r -gs -omitMacNames
-    echo "Building TTF ..."
-    otf2ttf $font_dir/$ps_name.otf
-    echo "Componentizing TTF ..."
-    ttfcomponentizer $font_dir/$ps_name.ttf
 
     # move font files to target directory
     mv $font_dir/$ps_name.otf $otf_dir
-    mv $font_dir/$ps_name.ttf $ttf_dir
     echo "Done with $ps_name"
     echo ""
     echo ""
@@ -43,11 +37,16 @@ function build_font {
 
 for w in ${upright_weights[@]}
 do
-	build_font Upright $w
+    build_font Upright $w
 done
 
 
 for w in ${italic_weights[@]}
 do
-	build_font Italic $w
+    build_font Italic $w
 done
+
+echo "Running metadata sanitization..."
+python3 "$DIR/fix_metadata.py" -i "$otf_dir" -o "$otf_dir"
+
+echo "Build and metadata sanitization complete!"
