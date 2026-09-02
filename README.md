@@ -1,12 +1,17 @@
-# Source Code Pro
+# Hasklig
 
-[Source Code Pro](http://adobe-fonts.github.io/source-code-pro/)
-is a set of OpenType fonts that have been designed to work well
-in user interface (UI) environments.
+Hasklig is a monospaced code font with ligatures, forked from
+[Source Code Pro](http://adobe-fonts.github.io/source-code-pro/) and merging in
+the ligature work originally designed by [Ian Tuomi](https://github.com/i-tu/Hasklig).
+
+This fork re-applies Hasklig's ligature set onto Source Code Pro's current
+upstream glyphs, since the original [i-tu/Hasklig](https://github.com/i-tu/Hasklig)
+project is archived and no longer tracks new Source Code Pro releases.
 
 ## Getting involved
 
-[Open an issue](https://github.com/adobe-fonts/source-code-pro/issues) or send a suggestion to Source Code's designer [Paul D. Hunt](mailto:opensourcefonts@adobe.com?subject=[GitHub]%20Source%20Code%20Pro), for consideration.
+[Open an issue](../../issues) or send a pull request if you find a bug or want
+to suggest an improvement.
 
 ## Releases
 
@@ -41,11 +46,11 @@ makeotf -r -gs -omitMacNames
 Commands to generate the Regular style TTF font:
 
 ```sh
-otf2ttf SourceCodePro-Regular.otf
-ttfcomponentizer SourceCodePro-Regular.ttf
+otf2ttf Hasklig-Regular.otf
+ttfcomponentizer Hasklig-Regular.ttf
 ```
 
-### Building all non-variable fonts
+### Building all fonts
 
 For convenience, a shell script named **build.sh** is provided in the root directory.
 It builds all OTFs and TTFs into a directory called **target/**. It can be executed by typing:
@@ -58,19 +63,4 @@ or this on Windows:
 
 ```sh
 build.cmd
-```
-
-### Building the variable fonts
-
-To build the variable TTFs you must install **fontmake** using this command:
-
-```sh
-pip3 install fontmake
-```
-
-A shell script named **buildVFs.sh** is provided in the root directory.
-It generates four variable fonts (two CFF2-OTFs and two TTFs), and can be executed by typing:
-
-```sh
-./buildVFs.sh
 ```

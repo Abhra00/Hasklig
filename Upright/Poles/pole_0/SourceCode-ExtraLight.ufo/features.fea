@@ -1,4 +1,3 @@
-include (../../../featuresVF.fea);
 
 table OS/2 {
 	include (../../Instances/ExtraLight/os2.fea);
