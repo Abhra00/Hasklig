@@ -621,19 +621,15 @@ lookup ONE_ALT_FULL {
 
 #--------------------------------------
 lookup AMPERSAND_AMPERSAND_ALT {
-	sub ampersand ampersand by ampersand_ampersand;
+	ignore sub ampersand ampersand' ampersand;
+	ignore sub ampersand' ampersand ampersand;
+	sub LIG ampersand' by ampersand_ampersand;
+	sub ampersand'  ampersand  by LIG;
 } AMPERSAND_AMPERSAND_ALT;
 
-feature ss08 { # Stylistic Set 8 (double ampersand ligature)
-	featureNames {
-		name 3 1 0x0409 "double ampersand ligature [&&]"; # English US
-#		name 3 1 0x0408 "XXX"; # Greek
-#		name 3 1 0x0419 "XXX"; # Russian
-	};
-
+feature dlig { # Discretionary Ligatures (double ampersand ligature [&&])
 	lookup AMPERSAND_AMPERSAND_ALT;
-
-} ss08;
+} dlig;
 
 #--------------------------------------
 feature zero {
