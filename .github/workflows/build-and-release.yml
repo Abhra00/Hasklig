@@ -1,0 +1,87 @@
+name: Build, Patch, and Release Hasklig
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag_name:
+        description: 'Release Tag Name (e.g. 2.030R-ro/1.050R-it or v1.000)'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  build-patch-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install Build Tools (AFDKO & FontForge)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fontforge python3-fontforge
+          pip install afdko
+
+      - name: Build Base Hasklig Fonts
+        run: |
+          chmod +x build-fonts.sh
+          ./build-fonts.sh
+
+      - name: Download Latest Stable Nerd Font Patcher
+        run: |
+          mkdir -p nf-patcher
+          LATEST_TAG=$(curl -s https://api.github.com/repos/ryanoasis/nerd-fonts/releases/latest | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
+          echo "Latest Nerd Fonts tag: $LATEST_TAG"
+          
+          curl -sSL "https://github.com/ryanoasis/nerd-fonts/releases/download/${LATEST_TAG}/FontPatcher.zip" -o nf-patcher/FontPatcher.zip
+          unzip -q nf-patcher/FontPatcher.zip -d nf-patcher
+          rm nf-patcher/FontPatcher.zip
+
+      - name: Organize Base Built Fonts
+        run: |
+          mkdir -p output/OTF output/TTF output/NF
+          find . -type f \( -name "*.otf" -o -name "*.ttf" \) ! -path "./output/*" ! -path "./nf-patcher/*" | while read -r font; do
+            ext="${font##*.}"
+            if [ "$ext" = "otf" ]; then
+              cp "$font" output/OTF/
+            elif [ "$ext" = "ttf" ]; then
+              cp "$font" output/TTF/
+            fi
+          done
+
+      - name: Patch OTF Fonts with Nerd Font Patcher
+        run: |
+          for font in output/OTF/*.otf; do
+            if [ -f "$font" ]; then
+              echo "Patching base font: $font"
+
+              # 1. Standard Variant
+              fontforge -quiet -script nf-patcher/font-patcher --debug 1 "$font" -q --makegroups 2 -c --no-progressbars --outputdir output/NF
+
+              # 2. Mono Variant (-s)
+              fontforge -quiet -script nf-patcher/font-patcher --debug 1 "$font" -q -s --makegroups 2 -c --no-progressbars --outputdir output/NF
+
+              # 3. Propo Variant (--variable)
+              fontforge -quiet -script nf-patcher/font-patcher --debug 1 "$font" -q --variable --makegroups 2 -c --no-progressbars --outputdir output/NF
+            fi
+          done
+
+      - name: Package Font Archives
+        run: |
+          cd output
+          zip -r ../Hasklig-Fonts.zip OTF TTF NF
+
+      - name: Create GitHub Release & Upload Asset
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.tag_name }}
+          files: Hasklig-Fonts.zip
+          generate_release_notes: true
