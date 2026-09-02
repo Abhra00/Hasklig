@@ -28,7 +28,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y fontforge python3-fontforge
-          pip install afdko
+          pip install afdko fonttools
 
       - name: Build Base Hasklig Fonts
         run: |
@@ -47,15 +47,8 @@ jobs:
 
       - name: Organize Base Built Fonts
         run: |
-          mkdir -p output/OTF output/TTF output/NF
-          find . -type f \( -name "*.otf" -o -name "*.ttf" \) ! -path "./output/*" ! -path "./nf-patcher/*" | while read -r font; do
-            ext="${font##*.}"
-            if [ "$ext" = "otf" ]; then
-              cp "$font" output/OTF/
-            elif [ "$ext" = "ttf" ]; then
-              cp "$font" output/TTF/
-            fi
-          done
+          mkdir -p output/OTF output/NF
+          cp target/OTF/*.otf output/OTF/
 
       - name: Patch OTF Fonts with Nerd Font Patcher
         run: |
@@ -77,7 +70,7 @@ jobs:
       - name: Package Font Archives
         run: |
           cd output
-          zip -r ../Hasklig-Fonts.zip OTF TTF NF
+          zip -r ../Hasklig-Fonts.zip OTF NF
 
       - name: Create GitHub Release & Upload Asset
         uses: softprops/action-gh-release@v2
