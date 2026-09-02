@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="period_period" format="2">
+  <advance width="600.0"/>
+  <outline>
+    <contour>
+      <point x="-311" y="-12" type="curve" name="hintRef0000"/>
+      <point x="-260" y="-12"/>
+      <point x="-221" y="33"/>
+      <point x="-221" y="82" type="curve"/>
+      <point x="-221" y="122"/>
+      <point x="-245" y="151"/>
+      <point x="-284" y="151" type="curve"/>
+      <point x="-334" y="151"/>
+      <point x="-374" y="106"/>
+      <point x="-374" y="56" type="curve"/>
+      <point x="-374" y="16"/>
+      <point x="-349" y="-12"/>
+    </contour>
+    <contour>
+      <point x="189" y="-12" type="curve"/>
+      <point x="240" y="-12"/>
+      <point x="279" y="33"/>
+      <point x="279" y="82" type="curve"/>
+      <point x="279" y="122"/>
+      <point x="255" y="151"/>
+      <point x="216" y="151" type="curve"/>
+      <point x="166" y="151"/>
+      <point x="126" y="106"/>
+      <point x="126" y="56" type="curve"/>
+      <point x="126" y="16"/>
+      <point x="151" y="-12"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -12 163</string>
+              <string>vstem -374 153</string>
+              <string>vstem 126 153</string>
+            </array>
+          </dict>
+        </array>
+        <key>id</key>
+        <string>68ecbdaa4121eb3afe5161148097e01ce77656fcf46bb7e4a260d2a92e9225aac6a7aff03bb0558406d6c0e9b70fdb25af36f8134ea52f3ffc14ebab0ee637bc</string>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

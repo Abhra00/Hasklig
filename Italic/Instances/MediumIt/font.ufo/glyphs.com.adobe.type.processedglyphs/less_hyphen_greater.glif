@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="less_hyphen_greater" format="2">
+  <advance width="600.0"/>
+  <outline>
+    <contour>
+      <point x="-519" y="294" type="line" name="hintRef0000"/>
+      <point x="337" y="294" type="line"/>
+      <point x="104" y="137" type="line"/>
+      <point x="104" y="44" type="line"/>
+      <point x="536" y="331" type="line"/>
+      <point x="104" y="620" type="line"/>
+      <point x="104" y="527" type="line"/>
+      <point x="344" y="366" type="line"/>
+      <point x="-519" y="366" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1136" y="332" type="line"/>
+      <point x="-704" y="44" type="line"/>
+      <point x="-704" y="137" type="line"/>
+      <point x="-938" y="294" type="line"/>
+      <point x="-84" y="294" type="line"/>
+      <point x="-84" y="366" type="line"/>
+      <point x="-944" y="366" type="line"/>
+      <point x="-704" y="527" type="line"/>
+      <point x="-704" y="620" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 294 72</string>
+              <string>vstem -1136 1672</string>
+            </array>
+          </dict>
+        </array>
+        <key>id</key>
+        <string>b0ccb2697b44431123c3be746944d7a3cab8e5dd3905879735f83fbd73bd2f589c1796310a7a8ef6bead22dc1b84b5c441dc59bd9148bbe885524ec69a55cdab</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-21 19:01:21 +0000</string>
+    </dict>
+  </lib>
+</glyph>

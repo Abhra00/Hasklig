@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="plus_plus" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="-482" y="316" type="line" name="hintRef0000"/>
+      <point x="-401" y="316" type="line"/>
+      <point x="-401" y="344" type="line"/>
+      <point x="-482" y="344" type="line"/>
+    </contour>
+    <contour>
+      <point x="391" y="316" type="line"/>
+      <point x="482" y="316" type="line"/>
+      <point x="482" y="344" type="line"/>
+      <point x="391" y="344" type="line"/>
+    </contour>
+    <contour>
+      <point x="-66" y="316" type="line"/>
+      <point x="75" y="316" type="line"/>
+      <point x="75" y="344" type="line"/>
+      <point x="-66" y="344" type="line"/>
+    </contour>
+    <contour>
+      <point x="203" y="112" type="line"/>
+      <point x="235" y="112" type="line"/>
+      <point x="235" y="316" type="line"/>
+      <point x="421" y="316" type="line"/>
+      <point x="421" y="344" type="line"/>
+      <point x="235" y="344" type="line"/>
+      <point x="235" y="548" type="line"/>
+      <point x="203" y="548" type="line"/>
+      <point x="203" y="344" type="line"/>
+      <point x="17" y="344" type="line"/>
+      <point x="17" y="316" type="line"/>
+      <point x="203" y="316" type="line"/>
+    </contour>
+    <contour>
+      <point x="-235" y="112" type="line"/>
+      <point x="-203" y="112" type="line"/>
+      <point x="-203" y="316" type="line"/>
+      <point x="-17" y="316" type="line"/>
+      <point x="-17" y="344" type="line"/>
+      <point x="-203" y="344" type="line"/>
+      <point x="-203" y="548" type="line"/>
+      <point x="-235" y="548" type="line"/>
+      <point x="-235" y="344" type="line"/>
+      <point x="-421" y="344" type="line"/>
+      <point x="-421" y="316" type="line"/>
+      <point x="-235" y="316" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 316 28</string>
+              <string>vstem -421 20</string>
+              <string>vstem -235 32</string>
+              <string>vstem -66 49</string>
+              <string>vstem 17 58</string>
+              <string>vstem 203 32</string>
+              <string>vstem 391 30</string>
+            </array>
+          </dict>
+        </array>
+        <key>id</key>
+        <string>de0da612c143e3217b8b46a3603547775ea7b96c0e19c833154c446795ab9a41e591ad643295c1b44c0e8d35d9d72682e9970a1716cd0e4bb311675a902ddef1</string>
+      </dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>100</integer>
+          <key>y</key>
+          <integer>1131</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

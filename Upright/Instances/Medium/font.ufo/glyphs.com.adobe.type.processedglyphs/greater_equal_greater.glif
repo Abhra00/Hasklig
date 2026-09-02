@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greater_equal_greater" format="2">
+  <advance width="600.0"/>
+  <outline>
+    <contour>
+      <point x="-909" y="403" type="line" name="hintRef0000"/>
+      <point x="306" y="403" type="line"/>
+      <point x="306" y="476" type="line"/>
+      <point x="-909" y="476" type="line"/>
+    </contour>
+    <contour>
+      <point x="-909" y="185" type="line"/>
+      <point x="306" y="185" type="line"/>
+      <point x="306" y="257" type="line"/>
+      <point x="-909" y="257" type="line"/>
+    </contour>
+    <contour>
+      <point x="104" y="44" type="line"/>
+      <point x="537" y="332" type="line"/>
+      <point x="104" y="620" type="line"/>
+      <point x="104" y="527" type="line"/>
+      <point x="398" y="331" type="line"/>
+      <point x="104" y="137" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1096" y="44" type="line"/>
+      <point x="-719" y="296" type="line"/>
+      <point x="-719" y="368" type="line"/>
+      <point x="-1096" y="620" type="line"/>
+      <point x="-1096" y="527" type="line"/>
+      <point x="-804" y="334" type="line" name="hintRef0001"/>
+      <point x="-804" y="330" type="line"/>
+      <point x="-1096" y="137" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 185 72</string>
+              <string>hstem 403 73</string>
+              <string>vstem -909 190</string>
+              <string>vstem 104 202</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0001</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 185 72</string>
+              <string>hstem 403 73</string>
+              <string>vstem -804 85</string>
+              <string>vstem 104 202</string>
+            </array>
+          </dict>
+        </array>
+        <key>id</key>
+        <string>23a5e9106574e1daf672bfec68eeef2311832e81894850a15e7edec480c14fce3f0c1a5ca7c8385c9f1101ea2871adbf69475e917bbbe64f6e77d246e30d9bcb</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-21 18:17:37 +0000</string>
+    </dict>
+  </lib>
+</glyph>

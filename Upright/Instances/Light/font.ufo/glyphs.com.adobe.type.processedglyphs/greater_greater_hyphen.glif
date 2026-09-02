@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greater_greater_hyphen" format="2">
+  <advance width="600.0"/>
+  <outline>
+    <contour>
+      <point x="-609" y="311" type="line" name="hintRef0000"/>
+      <point x="506" y="311" type="line"/>
+      <point x="506" y="349" type="line"/>
+      <point x="-609" y="349" type="line"/>
+    </contour>
+    <contour>
+      <point x="-552" y="337" type="line"/>
+      <point x="-1088" y="606" type="line"/>
+      <point x="-1088" y="558" type="line"/>
+      <point x="-626" y="334" type="line"/>
+      <point x="-626" y="330" type="line"/>
+      <point x="-1088" y="106" type="line"/>
+      <point x="-1088" y="58" type="line"/>
+      <point x="-552" y="327" type="line"/>
+    </contour>
+    <contour>
+      <point x="-123" y="352" type="line"/>
+      <point x="-628" y="606" type="line"/>
+      <point x="-628" y="561" type="line"/>
+      <point x="-166" y="334" type="line"/>
+      <point x="-166" y="330" type="line"/>
+      <point x="-628" y="102" type="line"/>
+      <point x="-628" y="58" type="line"/>
+      <point x="-123" y="312" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 311 38</string>
+              <string>vstem -609 57</string>
+              <string>vstem -166 43</string>
+            </array>
+          </dict>
+        </array>
+        <key>id</key>
+        <string>b3fb96741e2c78a3c725afadd1d88361a336833028e471d3fc8d9332b507986443be7d655d592560f95af3e7e1a6bcc48864a85515a96abb80c5f9a4a303859d</string>
+      </dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>-1706</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

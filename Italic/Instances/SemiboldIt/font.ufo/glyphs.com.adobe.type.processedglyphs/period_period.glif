@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="period_period" format="2">
+  <advance width="600.0"/>
+  <outline>
+    <contour>
+      <point x="-310" y="-12" type="curve" name="hintRef0000"/>
+      <point x="-248" y="-12"/>
+      <point x="-202" y="39"/>
+      <point x="-202" y="99" type="curve"/>
+      <point x="-202" y="146"/>
+      <point x="-232" y="181"/>
+      <point x="-279" y="181" type="curve"/>
+      <point x="-341" y="181" name="hintRef0001"/>
+      <point x="-386" y="130"/>
+      <point x="-386" y="70" type="curve"/>
+      <point x="-386" y="23"/>
+      <point x="-356" y="-12"/>
+    </contour>
+    <contour>
+      <point x="190" y="-12" type="curve"/>
+      <point x="252" y="-12"/>
+      <point x="298" y="39"/>
+      <point x="298" y="99" type="curve"/>
+      <point x="298" y="146" name="hintRef0002"/>
+      <point x="268" y="181"/>
+      <point x="221" y="181" type="curve"/>
+      <point x="159" y="181"/>
+      <point x="114" y="130"/>
+      <point x="114" y="70" type="curve"/>
+      <point x="114" y="23"/>
+      <point x="144" y="-12"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -12 193</string>
+              <string>vstem -386 184</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0001</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -12 193</string>
+              <string>vstem -386 684</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0002</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -12 193</string>
+              <string>vstem 114 184</string>
+            </array>
+          </dict>
+        </array>
+        <key>id</key>
+        <string>4cea91c015a493f71e4c86767cb9e14cb8841b7b48a411a1cf80c138da6da194d1b9d76261934d48d6c662588789de9b5f7ffe1af8752bf41f41118d2afd7236</string>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

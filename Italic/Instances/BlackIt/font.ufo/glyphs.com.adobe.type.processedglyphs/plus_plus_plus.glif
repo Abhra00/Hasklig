@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="plus_plus_plus" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="-1136" y="270" type="line" name="hintRef0000"/>
+      <point x="536" y="270" type="line"/>
+      <point x="536" y="390" type="line" name="hintRef0001"/>
+      <point x="-1136" y="390" type="line"/>
+    </contour>
+    <contour>
+      <point x="117" y="92" type="line" name="hintRef0002"/>
+      <point x="233" y="92" type="line"/>
+      <point x="233" y="274" type="line" name="hintRef0003"/>
+      <point x="408" y="274" type="line"/>
+      <point x="408" y="386" type="line" name="hintRef0004"/>
+      <point x="233" y="386" type="line"/>
+      <point x="233" y="568" type="line" name="hintRef0005"/>
+      <point x="117" y="568" type="line"/>
+      <point x="117" y="386" type="line" name="hintRef0006"/>
+      <point x="-58" y="386" type="line"/>
+      <point x="-58" y="274" type="line" name="hintRef0007"/>
+      <point x="117" y="274" type="line"/>
+    </contour>
+    <contour>
+      <point x="-358" y="92" type="line" name="hintRef0008"/>
+      <point x="-242" y="92" type="line"/>
+      <point x="-242" y="274" type="line" name="hintRef0009"/>
+      <point x="-67" y="274" type="line"/>
+      <point x="-67" y="386" type="line" name="hintRef0010"/>
+      <point x="-242" y="386" type="line"/>
+      <point x="-242" y="568" type="line" name="hintRef0011"/>
+      <point x="-358" y="568" type="line"/>
+      <point x="-358" y="386" type="line" name="hintRef0012"/>
+      <point x="-533" y="386" type="line"/>
+      <point x="-533" y="274" type="line" name="hintRef0013"/>
+      <point x="-358" y="274" type="line"/>
+    </contour>
+    <contour>
+      <point x="-833" y="92" type="line" name="hintRef0014"/>
+      <point x="-717" y="92" type="line"/>
+      <point x="-717" y="274" type="line" name="hintRef0015"/>
+      <point x="-542" y="274" type="line"/>
+      <point x="-542" y="386" type="line" name="hintRef0016"/>
+      <point x="-717" y="386" type="line"/>
+      <point x="-717" y="568" type="line" name="hintRef0017"/>
+      <point x="-833" y="568" type="line"/>
+      <point x="-833" y="386" type="line" name="hintRef0018"/>
+      <point x="-1008" y="386" type="line"/>
+      <point x="-1008" y="274" type="line" name="hintRef0019"/>
+      <point x="-833" y="274" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 270 116</string>
+              <string>vstem -833 116</string>
+              <string>vstem -358 116</string>
+              <string>vstem 117 116</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0001</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 274 116</string>
+              <string>vstem -833 116</string>
+              <string>vstem -358 116</string>
+              <string>vstem 117 116</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0002</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 92 298</string>
+              <string>vstem -833 116</string>
+              <string>vstem -358 116</string>
+              <string>vstem 117 116</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0003</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 274 116</string>
+              <string>vstem -833 116</string>
+              <string>vstem -358 116</string>
+              <string>vstem 117 116</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0004</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 270 116</string>
+              <string>vstem -833 116</string>
+              <string>vstem -358 116</string>
+              <string>vstem 117 116</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0005</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 270 298</string>
+              <string>vstem -833 116</string>
+              <string>vstem -358 116</string>
+              <string>vstem 117 116</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0006</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 270 116</string>
+              <string>vstem -833 116</string>
+              <string>vstem -358 116</string>
+              <string>vstem 117 116</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0007</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 274 116</string>
+              <string>vstem -833 116</string>
+              <string>vstem -358 116</string>
+              <string>vstem 117 116</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0008</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 92 298</string>
+              <string>vstem -833 116</string>
+              <string>vstem -358 116</string>
+              <string>vstem 117 116</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0009</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 274 116</string>
+              <string>vstem -833 116</string>
+              <string>vstem -358 116</string>
+              <string>vstem 117 116</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0010</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 270 116</string>
+              <string>vstem -833 116</string>
+              <string>vstem -358 116</string>
+              <string>vstem 117 116</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0011</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 270 298</string>
+              <string>vstem -833 116</string>
+              <string>vstem -358 116</string>
+              <string>vstem 117 116</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0012</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 270 116</string>
+              <string>vstem -833 116</string>
+              <string>vstem -358 116</string>
+              <string>vstem 117 116</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0013</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 274 116</string>
+              <string>vstem -833 116</string>
+              <string>vstem -358 116</string>
+              <string>vstem 117 116</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0014</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 92 298</string>
+              <string>vstem -833 116</string>
+              <string>vstem -358 116</string>
+              <string>vstem 117 116</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0015</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 274 116</string>
+              <string>vstem -833 116</string>
+              <string>vstem -358 116</string>
+              <string>vstem 117 116</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0016</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 270 116</string>
+              <string>vstem -833 116</string>
+              <string>vstem -358 116</string>
+              <string>vstem 117 116</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0017</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 270 298</string>
+              <string>vstem -833 116</string>
+              <string>vstem -358 116</string>
+              <string>vstem 117 116</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0018</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 270 116</string>
+              <string>vstem -833 116</string>
+              <string>vstem -358 116</string>
+              <string>vstem 117 116</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0019</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 274 116</string>
+              <string>vstem -833 116</string>
+              <string>vstem -358 116</string>
+              <string>vstem 117 116</string>
+            </array>
+          </dict>
+        </array>
+        <key>id</key>
+        <string>2b62133c438c71f6a41c1018d247fb3134882730c2a8c40938cb8f4e73fc506a77235155a1685818ac5c22a2b23a7081db1283b00908ab351e415b2112b4b274</string>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

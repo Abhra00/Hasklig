@@ -655,6 +655,22 @@ lookup ONE_ALT_FULL {
 } ss07;
 
 #--------------------------------------
+lookup AMPERSAND_AMPERSAND_ALT {
+	sub ampersand ampersand by ampersand_ampersand;
+} AMPERSAND_AMPERSAND_ALT;
+
+feature ss08 { # Stylistic Set 8 (double ampersand ligature)
+	featureNames {
+		name 3 1 0x0409 "double ampersand ligature [&&]"; # English US
+#		name 3 1 0x0408 "XXX"; # Greek
+#		name 3 1 0x0419 "XXX"; # Russian
+	};
+
+	lookup AMPERSAND_AMPERSAND_ALT;
+
+} ss08;
+
+#--------------------------------------
 feature zero {
 	lookup ZERO_SLASH;
 } zero;
@@ -676,6 +692,9 @@ feature salt { # Stylistic Alternates
 } salt;
 
 #-------------------------------------------
+#-------------------------------------------
+include (../ligatures.fea);
+
 feature size {
 	parameters 10.0 0; # design size, subfamily
 } size;

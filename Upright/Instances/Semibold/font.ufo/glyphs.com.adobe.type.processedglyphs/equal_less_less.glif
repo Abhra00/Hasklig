@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="equal_less_less" format="2">
+  <advance width="600.0"/>
+  <outline>
+    <contour>
+      <point x="-1122" y="400" type="line" name="hintRef0000"/>
+      <point x="-266" y="400" type="line"/>
+      <point x="-242" y="484" type="line"/>
+      <point x="-1122" y="484" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1122" y="176" type="line"/>
+      <point x="-241" y="176" type="line"/>
+      <point x="-241" y="260" type="line"/>
+      <point x="-1122" y="260" type="line"/>
+    </contour>
+    <contour>
+      <point x="-85" y="321" type="line"/>
+      <point x="498" y="39" type="line"/>
+      <point x="498" y="146" type="line"/>
+      <point x="75" y="330" type="line"/>
+      <point x="75" y="334" type="line"/>
+      <point x="498" y="518" type="line"/>
+      <point x="498" y="625" type="line"/>
+      <point x="-85" y="343" type="line"/>
+    </contour>
+    <contour>
+      <point x="-482" y="291" type="line"/>
+      <point x="38" y="39" type="line"/>
+      <point x="38" y="128" type="line"/>
+      <point x="-385" y="330" type="line"/>
+      <point x="-385" y="334" type="line"/>
+      <point x="38" y="542" type="line"/>
+      <point x="38" y="625" type="line"/>
+      <point x="-482" y="373" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 176 84</string>
+              <string>hstem 400 84</string>
+              <string>vstem -482 97</string>
+            </array>
+          </dict>
+        </array>
+        <key>id</key>
+        <string>5bd8c8cf5ab2964d06b2dc482c79104d2b20c1138662c32badc486eba1b448168b839fb3d96825e44dedf0a0db411f3d854c9434c06171dd60d2186ca3d66813</string>
+      </dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>100</integer>
+          <key>y</key>
+          <integer>1506</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

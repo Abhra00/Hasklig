@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="equal_greater" format="2">
+  <advance width="600.0"/>
+  <outline>
+    <contour>
+      <point x="104" y="620" type="line"/>
+      <point x="104" y="527" type="line"/>
+      <point x="398" y="331" type="line"/>
+      <point x="104" y="137" type="line"/>
+      <point x="104" y="44" type="line"/>
+      <point x="536" y="332" type="line"/>
+    </contour>
+    <contour>
+      <point x="-519" y="403" type="line"/>
+      <point x="308" y="403" type="line"/>
+      <point x="308" y="476" type="line"/>
+      <point x="-519" y="476" type="line"/>
+    </contour>
+    <contour>
+      <point x="-519" y="185" type="line"/>
+      <point x="306" y="185" type="line"/>
+      <point x="308" y="257" type="line"/>
+      <point x="-519" y="257" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>100</integer>
+          <key>y</key>
+          <integer>1037</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

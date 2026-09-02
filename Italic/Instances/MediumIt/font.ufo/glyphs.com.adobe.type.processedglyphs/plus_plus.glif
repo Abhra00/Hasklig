@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="plus_plus" format="2">
+  <advance width="600.0"/>
+  <outline>
+    <contour>
+      <point x="-499" y="296" type="line" name="hintRef0000"/>
+      <point x="-399" y="296" type="line"/>
+      <point x="-399" y="364" type="line"/>
+      <point x="-499" y="364" type="line"/>
+    </contour>
+    <contour>
+      <point x="378" y="296" type="line"/>
+      <point x="499" y="296" type="line" name="hintRef0001"/>
+      <point x="499" y="364" type="line"/>
+      <point x="378" y="364" type="line" name="hintRef0002"/>
+    </contour>
+    <contour>
+      <point x="-99" y="296" type="line"/>
+      <point x="110" y="296" type="line" name="hintRef0003"/>
+      <point x="110" y="364" type="line"/>
+      <point x="-99" y="364" type="line" name="hintRef0004"/>
+    </contour>
+    <contour>
+      <point x="183" y="102" type="line"/>
+      <point x="255" y="102" type="line"/>
+      <point x="255" y="296" type="line"/>
+      <point x="436" y="296" type="line"/>
+      <point x="436" y="364" type="line"/>
+      <point x="255" y="364" type="line"/>
+      <point x="255" y="558" type="line"/>
+      <point x="183" y="558" type="line"/>
+      <point x="183" y="364" type="line"/>
+      <point x="2" y="364" type="line" name="hintRef0005"/>
+      <point x="2" y="296" type="line"/>
+      <point x="183" y="296" type="line"/>
+    </contour>
+    <contour>
+      <point x="-255" y="102" type="line"/>
+      <point x="-183" y="102" type="line"/>
+      <point x="-183" y="296" type="line"/>
+      <point x="-2" y="296" type="line" name="hintRef0006"/>
+      <point x="-2" y="364" type="line"/>
+      <point x="-183" y="364" type="line"/>
+      <point x="-183" y="558" type="line"/>
+      <point x="-255" y="558" type="line"/>
+      <point x="-255" y="364" type="line"/>
+      <point x="-436" y="364" type="line"/>
+      <point x="-436" y="296" type="line"/>
+      <point x="-255" y="296" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 296 68</string>
+              <string>vstem -499 100</string>
+              <string>vstem -255 72</string>
+              <string>vstem -99 97</string>
+              <string>vstem 183 72</string>
+              <string>vstem 378 58</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0001</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 296 68</string>
+              <string>vstem -499 100</string>
+              <string>vstem -255 72</string>
+              <string>vstem -99 97</string>
+              <string>vstem 183 72</string>
+              <string>vstem 378 121</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0002</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 296 68</string>
+              <string>vstem -499 100</string>
+              <string>vstem -255 72</string>
+              <string>vstem -99 97</string>
+              <string>vstem 183 72</string>
+              <string>vstem 378 58</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0003</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 296 68</string>
+              <string>vstem -499 100</string>
+              <string>vstem -255 72</string>
+              <string>vstem 2 108</string>
+              <string>vstem 183 72</string>
+              <string>vstem 378 58</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0004</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 296 68</string>
+              <string>vstem -499 100</string>
+              <string>vstem -255 72</string>
+              <string>vstem -99 97</string>
+              <string>vstem 183 72</string>
+              <string>vstem 378 58</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0005</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 296 68</string>
+              <string>vstem -499 100</string>
+              <string>vstem -255 72</string>
+              <string>vstem 2 108</string>
+              <string>vstem 183 72</string>
+              <string>vstem 378 58</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0006</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 296 68</string>
+              <string>vstem -436 37</string>
+              <string>vstem -255 72</string>
+              <string>vstem -99 97</string>
+              <string>vstem 183 72</string>
+              <string>vstem 378 58</string>
+            </array>
+          </dict>
+        </array>
+        <key>id</key>
+        <string>0f2bddb489af48c1197fd8f6516bdfc7c2772377c353f051026f29be9fae7e96cb3fb130dde1b33d48491f1ec415688451bdd6575b02c2b6ba421e3c1ab6c70e</string>
+      </dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>1131</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

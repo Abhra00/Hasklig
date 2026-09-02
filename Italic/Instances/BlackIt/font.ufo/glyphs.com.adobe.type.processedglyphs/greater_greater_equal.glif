@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greater_greater_equal" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="-364" y="390" type="line" name="hintRef0000"/>
+      <point x="536" y="390" type="line"/>
+      <point x="536" y="510" type="line"/>
+      <point x="-391" y="510" type="line"/>
+    </contour>
+    <contour>
+      <point x="-374" y="153" type="line"/>
+      <point x="536" y="153" type="line"/>
+      <point x="536" y="271" type="line"/>
+      <point x="-374" y="271" type="line"/>
+    </contour>
+    <contour>
+      <point x="-485" y="347" type="line"/>
+      <point x="-1106" y="640" type="line"/>
+      <point x="-1106" y="486" type="line"/>
+      <point x="-714" y="334" type="line"/>
+      <point x="-714" y="330" type="line"/>
+      <point x="-1106" y="178" type="line"/>
+      <point x="-1106" y="24" type="line"/>
+      <point x="-485" y="316" type="line"/>
+    </contour>
+    <contour>
+      <point x="-114" y="390" type="line"/>
+      <point x="-646" y="640" type="line"/>
+      <point x="-646" y="516" type="line"/>
+      <point x="-254" y="334" type="line" name="hintRef0001"/>
+      <point x="-254" y="330" type="line"/>
+      <point x="-646" y="138" type="line"/>
+      <point x="-646" y="24" type="line"/>
+      <point x="-114" y="274" type="line" name="hintRef0002"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 153 118</string>
+              <string>hstem 390 120</string>
+              <string>vstem -374 260</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0001</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 153 118</string>
+              <string>hstem 390 120</string>
+              <string>vstem -254 140</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0002</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 153 118</string>
+              <string>hstem 390 120</string>
+              <string>vstem -374 260</string>
+            </array>
+          </dict>
+        </array>
+        <key>id</key>
+        <string>45f83a0b50c45d88f6ef9cb329da10d08688dfc2493af89d79bbac80feba8f10492be4b16e52e53d645fdf7e1090e21b4036d5ef51a831ceddb2d17923f1891b</string>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

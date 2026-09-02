@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="less_equal_greater" format="2">
+  <advance width="600.0"/>
+  <outline>
+    <contour>
+      <point x="-704" y="41" type="line" name="hintRef0000"/>
+      <point x="-704" y="134" type="line"/>
+      <point x="-998" y="330" type="line"/>
+      <point x="-704" y="524" type="line"/>
+      <point x="-704" y="617" type="line"/>
+      <point x="-1136" y="329" type="line"/>
+    </contour>
+    <contour>
+      <point x="-81" y="258" type="line"/>
+      <point x="-908" y="258" type="line"/>
+      <point x="-908" y="185" type="line"/>
+      <point x="-81" y="185" type="line"/>
+    </contour>
+    <contour>
+      <point x="-81" y="476" type="line"/>
+      <point x="-906" y="476" type="line"/>
+      <point x="-908" y="404" type="line"/>
+      <point x="-81" y="404" type="line"/>
+    </contour>
+    <contour>
+      <point x="104" y="620" type="line"/>
+      <point x="104" y="527" type="line"/>
+      <point x="398" y="331" type="line"/>
+      <point x="104" y="137" type="line"/>
+      <point x="104" y="44" type="line"/>
+      <point x="536" y="332" type="line"/>
+    </contour>
+    <contour>
+      <point x="-519" y="403" type="line" name="hintRef0001"/>
+      <point x="308" y="403" type="line"/>
+      <point x="308" y="476" type="line" name="hintRef0002"/>
+      <point x="-519" y="476" type="line"/>
+    </contour>
+    <contour>
+      <point x="-519" y="185" type="line"/>
+      <point x="306" y="185" type="line"/>
+      <point x="308" y="257" type="line" name="hintRef0003"/>
+      <point x="-519" y="257" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 185 73</string>
+              <string>hstem 404 72</string>
+              <string>vstem -1136 1672</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0001</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 403 73</string>
+              <string>vstem -1136 1672</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0002</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 185 73</string>
+              <string>hstem 404 72</string>
+              <string>vstem -1136 1672</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0003</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 185 72</string>
+              <string>vstem -1136 1672</string>
+            </array>
+          </dict>
+        </array>
+        <key>id</key>
+        <string>de25edccbdec594a8cda9e3ca6433b583458707f6ec06aba711df4ab15568daf13d5cf13925dfd61c0b931b2d9b7c3571c56976bc922ca36420325deb4af1064</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-21 19:01:21 +0000</string>
+    </dict>
+  </lib>
+</glyph>

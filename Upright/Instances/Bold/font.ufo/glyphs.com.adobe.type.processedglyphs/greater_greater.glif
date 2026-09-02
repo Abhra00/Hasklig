@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greater_greater" format="2">
+  <advance width="600.0"/>
+  <outline>
+    <contour>
+      <point x="102" y="345" type="line" name="hintRef0000"/>
+      <point x="-502" y="633" type="line"/>
+      <point x="-502" y="500" type="line"/>
+      <point x="-97" y="334" type="line"/>
+      <point x="-97" y="330" type="line"/>
+      <point x="-502" y="164" type="line"/>
+      <point x="-502" y="31" type="line"/>
+      <point x="102" y="318" type="line"/>
+    </contour>
+    <contour>
+      <point x="484" y="383" type="line" name="hintRef0001"/>
+      <point x="-42" y="633" type="line" name="hintRef0002"/>
+      <point x="-42" y="525" type="line"/>
+      <point x="363" y="334" type="line" name="hintRef0003"/>
+      <point x="363" y="330" type="line"/>
+      <point x="-42" y="131" type="line"/>
+      <point x="-42" y="31" type="line"/>
+      <point x="484" y="281" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 31 602</string>
+              <string>vstem -502 986</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0001</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 31 602</string>
+              <string>vstem 363 121</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0002</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 31 602</string>
+              <string>vstem -502 986</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0003</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 31 602</string>
+              <string>vstem 363 121</string>
+            </array>
+          </dict>
+        </array>
+        <key>id</key>
+        <string>w600l102345l-502633l-502500l-97334l-97330l-502164l-50231l102318l484383l-42633l-42525l363334l363330l-42131l-4231l484281</string>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

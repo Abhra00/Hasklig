@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slash_equal" format="2">
+  <advance width="600.0"/>
+  <outline>
+    <contour>
+      <point x="-540" y="-74" type="line" name="hintRef0000"/>
+      <point x="-419" y="-74" type="line"/>
+      <point x="84" y="709" type="line"/>
+      <point x="-37" y="709" type="line"/>
+    </contour>
+    <contour>
+      <point x="-530" y="395" type="line"/>
+      <point x="530" y="395" type="line"/>
+      <point x="530" y="498" type="line"/>
+      <point x="-530" y="498" type="line"/>
+    </contour>
+    <contour>
+      <point x="-530" y="162" type="line"/>
+      <point x="530" y="162" type="line"/>
+      <point x="530" y="265" type="line"/>
+      <point x="-530" y="265" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 162 103</string>
+              <string>hstem 395 103</string>
+              <string>hstem 709 -20</string>
+              <string>vstem -540 1070</string>
+            </array>
+          </dict>
+        </array>
+        <key>id</key>
+        <string>w600l-540-74l-419-74l84709l-37709l-530395l530395l530498l-530498l-530162l530162l530265l-530265</string>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

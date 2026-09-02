@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="period_period" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="-250" y="-12" type="curve" name="hintRef0000"/>
+      <point x="-172" y="-12"/>
+      <point x="-120" y="46"/>
+      <point x="-120" y="118" type="curve"/>
+      <point x="-120" y="189" name="hintRef0001"/>
+      <point x="-172" y="248"/>
+      <point x="-250" y="248" type="curve"/>
+      <point x="-328" y="248" name="hintRef0002"/>
+      <point x="-380" y="189"/>
+      <point x="-380" y="118" type="curve"/>
+      <point x="-380" y="46"/>
+      <point x="-328" y="-12"/>
+    </contour>
+    <contour>
+      <point x="250" y="-12" type="curve"/>
+      <point x="328" y="-12" name="hintRef0003"/>
+      <point x="380" y="46"/>
+      <point x="380" y="118" type="curve"/>
+      <point x="380" y="189" name="hintRef0004"/>
+      <point x="328" y="248"/>
+      <point x="250" y="248" type="curve"/>
+      <point x="172" y="248"/>
+      <point x="120" y="189"/>
+      <point x="120" y="118" type="curve"/>
+      <point x="120" y="46"/>
+      <point x="172" y="-12"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 9 -21</string>
+              <string>vstem -380 260</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0001</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -12 260</string>
+              <string>vstem -380 260</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0002</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -12 260</string>
+              <string>vstem -380 760</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0003</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 9 -21</string>
+              <string>vstem -380 760</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0004</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -12 260</string>
+              <string>vstem 120 260</string>
+            </array>
+          </dict>
+        </array>
+        <key>id</key>
+        <string>401282c58da9e571fd6c7b40a677bc05b808991f19604821e779f77f8a2f744997e2bb973785dd2f2bb1724b0c6b275f7a056697af3545e9814381d4e36be64c</string>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>
