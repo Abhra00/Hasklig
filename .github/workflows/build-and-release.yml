@@ -32,8 +32,8 @@ jobs:
 
       - name: Build Base Hasklig Fonts
         run: |
-          chmod +x build-fonts.sh
-          ./build-fonts.sh
+          chmod +x build.sh
+          ./build.sh
 
       - name: Download Latest Stable Nerd Font Patcher
         run: |
