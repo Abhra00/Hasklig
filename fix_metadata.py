@@ -87,7 +87,6 @@ def sanitize(font, base_family):
         new_sel |= 1 << 5
     if weight == 400 and not is_italic:
         new_sel |= 1 << 6
-    new_sel |= 1 << 7
     os2.fsSelection = new_sel
 
     if os2.version < 4:
