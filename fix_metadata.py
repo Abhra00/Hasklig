@@ -55,7 +55,7 @@ def sanitize(font, base_family):
         subfamily = ("Bold Italic" if is_italic else "Bold") if weight == 700 \
             else ("Italic" if is_italic else "Regular")
         family = base_family
-        full = base_family if subfamily == "Regular" else f"{base_family} {subfamily}"
+        full = f"{base_family} {subfamily}"
 
         set_name(name_tbl, 1, family)
         set_name(name_tbl, 2, subfamily)
