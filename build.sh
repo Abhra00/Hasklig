@@ -47,6 +47,6 @@ do
 done
 
 echo "Running metadata sanitization..."
-python3 "$DIR/fix_metadata.py" -i "$otf_dir" -o "$otf_dir"
+python3 "$DIR/fix_metadata.py" -i "$otf_dir" -o "$otf_dir" --family "$family"
 
 echo "Build and metadata sanitization complete!"
