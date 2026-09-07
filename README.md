@@ -58,9 +58,3 @@ It builds all OTFs and TTFs into a directory called **target/**. It can be execu
 ```sh
 ./build.sh
 ```
-
-or this on Windows:
-
-```sh
-build.cmd
-```
